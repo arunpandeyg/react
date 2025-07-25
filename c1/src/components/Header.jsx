@@ -5,7 +5,7 @@ import { Link } from 'react-router'
 function Header() {
   return (
     <header className='flex justify-between items-center p-4 bg-blue-500 text-white'>
-      <h1 className='text-3xl font-bold '>Practice</h1>
+      <Link to="/"><h1 className='text-3xl font-bold '>Arun Pandey</h1></Link>
         <nav>           
           <ul className='flex space-x-4'>
             <Link to='/'> <li> Home</li> </Link>
